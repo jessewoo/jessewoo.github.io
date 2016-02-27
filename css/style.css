@@ -1,0 +1,277 @@
+/*!
+ * Start Bootstrap - Stylish Portfolio Bootstrap Theme (http://startbootstrap.com)
+ * Code licensed under the Apache License v2.0.
+ * For details, see http://www.apache.org/licenses/LICENSE-2.0.
+ */
+
+/* Global Styles */
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+}
+
+body {
+    font-family: "Source Sans Pro","Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+.text-vertical-center {
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.text-vertical-center h1 {
+    margin: 0;
+    padding: 0;
+    font-size: 4.5em;
+    font-weight: 700;
+}
+
+ul {
+  -webkit-padding-start: 20px;
+}
+
+.link-contrast, .link-contrast:hover {
+  color: #fff;
+}
+
+/* Custom Button Styles */
+.btn-dark {
+    border-radius: 0;
+    color: #fff;
+    background-color: rgba(0,0,0,0.4);
+}
+
+.btn-dark:hover,
+.btn-dark:focus,
+.btn-dark:active {
+    color: #fff;
+    background-color: rgba(0,0,0,0.7);
+}
+
+.btn-light {
+    padding: 3px 7px;
+    color: #333;
+    background-color: rgb(255,255,255);
+}
+
+.btn-light:hover,
+.btn-light:focus,
+.btn-light:active {
+    color: #333;
+    background-color: rgba(255,255,255,0.8);
+}
+
+/* Custom Horizontal Rule */
+
+hr.small {
+    max-width: 100px;
+}
+
+/* Side Menu */
+
+#sidebar-wrapper {
+    z-index: 1000;
+    position: fixed;
+    right: 0;
+    width: 250px;
+    height: 100%;
+    margin-right: -250px;
+    overflow-y: auto;
+    background: #222;
+    -webkit-transition: all 0.4s ease 0s;
+    -moz-transition: all 0.4s ease 0s;
+    -ms-transition: all 0.4s ease 0s;
+    -o-transition: all 0.4s ease 0s;
+    transition: all 0.4s ease 0s;
+}
+
+.sidebar-nav {
+    position: absolute;
+    top: 0;
+    width: 250px;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.sidebar-nav li {
+    text-indent: 20px;
+    line-height: 40px;
+}
+
+.sidebar-nav li a {
+    display: block;
+    text-decoration: none;
+    color: #999;
+}
+
+.sidebar-nav li a:hover {
+    text-decoration: none;
+    color: #fff;
+    background: rgba(255,255,255,0.2);
+}
+
+.sidebar-nav li a:active,
+.sidebar-nav li a:focus {
+    text-decoration: none;
+}
+
+.sidebar-nav > .sidebar-brand {
+    height: 55px;
+    font-size: 18px;
+    line-height: 55px;
+}
+
+.sidebar-nav > .sidebar-brand a {
+    color: #999;
+}
+
+.sidebar-nav > .sidebar-brand a:hover {
+    color: #fff;
+    background: none;
+}
+
+#menu-toggle {
+    z-index: 1;
+    position: fixed;
+    top: 0;
+    right: 0;
+}
+
+#sidebar-wrapper.active {
+    right: 250px;
+    width: 250px;
+    -webkit-transition: all 0.4s ease 0s;
+    -moz-transition: all 0.4s ease 0s;
+    -ms-transition: all 0.4s ease 0s;
+    -o-transition: all 0.4s ease 0s;
+    transition: all 0.4s ease 0s;
+}
+
+.toggle {
+    margin: 5px 5px 0 0;
+}
+
+/* Header */
+.header {
+    display: table;
+    position: relative;
+    width: 100%;
+    height: 25%;
+    background: url(../images/bg-code.jpg) no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+.header-short {
+  height: 100px;
+}
+
+#bannerText {
+  color: #fff;
+}
+
+#bannerText div {
+  border: 1px solid #fff;
+  padding: 25px 10px;
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.header-short #bannerText div {
+  border: none;
+  margin-left: 0;
+}
+
+#bannerText h1 {
+  text-transform: uppercase;
+  font-family: 'Oswald', sans-serif;
+  font-size: 70px;
+}
+
+.header-short #bannerText h1 {
+  text-transform: uppercase;
+  font-family: 'Oswald', sans-serif;
+  font-size: 40px;
+}
+
+.header-short #bannerText h1 a {
+  color: white;
+}
+
+/* Sections */
+section {
+    padding: 50px 0;
+    box-shadow: 0 4px 2px -2px gray;
+}
+
+section h2 {
+  font-family: 'Oswald', sans-serif;
+  text-transform: uppercase;
+  font-size: 40px;
+}
+
+
+/* About Me Section */
+#about {
+    padding: 30px 0 50px 0;
+    background: #384563;
+    color: #fff;
+}
+
+/* Portfolio */
+
+#portfolio {
+    background-color: #ECECEC;
+}
+
+#portfolio div {
+    margin-bottom: 15px;
+}
+
+#casestudy-rcsb {
+  background-color: rgba(0, 75, 128, 0.11);
+}
+
+#casestudy-rcsb hr {
+  border-color: #CCC;
+}
+
+#casestudy-rcsb .rcsbicon {
+  width: 100px;
+}
+
+.paragraphicon {
+  width: 110px;
+  margin: 0 15px 10px 0;
+}
+
+#recommendations {
+  background-color: rgba(242, 222, 222, 0.58);
+}
+
+#recommendations blockquote {
+  font-size: 14px;
+  border-right: 5px solid #a94442;
+  padding: 10px;
+}
+
+/* Footer */
+footer {
+    padding: 50px 0;
+    background: #384563;
+}
+
+footer a {
+  color: #fff;
+}
+
+footer a:hover {
+  color: #F5F5F5;
+}
