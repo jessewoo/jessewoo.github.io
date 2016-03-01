@@ -1,0 +1,168 @@
+/* GLOBAL STYLES
+-------------------------------------------------- */
+body {
+  color: #5a5a5a;
+}
+
+.btn-primary {
+	color: #fff;
+	background-color: #175488;
+	border-color: #203549;
+}
+
+/* NAVIGATION
+-------------------------------------------------- */
+.navbar-brand {
+	padding: 0 15px;
+	margin-top:-5px;
+}
+
+#SDSCLogo {
+	width: 60px;
+}
+
+.navbar-inverse {
+	background-color: #e4e4e4;
+	border-color: #cbcbcb;
+	padding: 15px 0;
+}
+
+.navbar-inverse .navbar-nav>li>a {
+	color: #5a5a5a;
+	font-size: 16px;
+}
+
+.navbar-inverse .navbar-nav>li>a:hover {
+	color: #428bca;
+}
+
+.navbar-inverse .navbar-toggle {
+	background-color: #333;
+}
+
+.navbar-inverse .navbar-collapse {
+	border: 0;
+}
+
+/* STAFF PAGE
+-------------------------------------------------- */
+body #jumbotron_home {
+	background-image: url('../images/BannerTeam3.png');
+	color: #FFF;
+	background-repeat: repeat-x;
+	margin-top: 60px;
+}
+
+.jumbotron {
+	background-color: #FFF;
+}
+
+.jumbotron .container {
+	height: 192px;
+}
+
+#team {
+	margin-top: 0;
+}
+
+.otherTeamMembers img {
+	margin-bottom: 10px;
+	border: 1px solid #B0AEAE;
+}
+
+.main_content {
+	margin-top: 70px;
+}
+
+#students .row h5,
+#alumni .row p {
+	margin-left: 15px;
+}
+
+/* PERSONAL PAGES
+-------------------------------------------------- */
+.personal_page h1 {
+	color: #428bca;
+	font-size: 50px;
+	margin-bottom: 0;
+}
+
+.personal_page h2 {
+	margin-top: 0;
+	font-size: 20px;
+}
+
+/* FEATURETTE SECTION - HOMEPAGE
+-------------------------------------------------- */
+.marketing {
+	margin-top: 70px;
+}
+
+@media (min-width: 992px) {
+	.featurette .featurette-heading {
+		margin-top: 40px;
+	}
+}
+
+@media (min-width: 1200px) {
+	.marketing {
+		margin-top: 0;
+	}
+}
+
+#introduction-twitter {
+	margin-top: 10px;
+}
+
+/* POSITIONS - PROJECTS - TOOLS
+-------------------------------------------------- */
+#positions h2 {
+	color: #578FBC;
+}
+
+.studentprojectimages {
+	width: 200px;
+	margin: 5px 10px;
+}
+
+.staffprojectimages {
+	width: 200px;
+	margin: 5px 10px;
+}
+
+/* CULTURE PAGE
+-------------------------------------------------- */
+#cultureList {
+	list-style-type: none;
+	padding-left: 10px;
+}
+
+#cultureList li {
+	display: block;
+	width: 100%;
+	clear: both;
+	margin-bottom: 15px;
+}
+
+#cultureList img {
+	width: 75px;
+	float: left;
+	margin-bottom: 27px;
+	margin-right: 10px;
+}
+
+/* PUBLICATION PAGE
+-------------------------------------------------- */
+.JournalCovers img {
+	max-height: 130px;
+	margin-right: 10px;
+	margin-bottom: 10px;
+	border: 1px solid #C3C3C3;
+}
+
+.publications ul li {
+	margin-bottom: 16px;
+	border-left: 3px #5e94c3 solid;
+	padding-left: 4px;
+	list-style-type: none;
+}
