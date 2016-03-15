@@ -168,7 +168,7 @@ hr.small {
 
 #bannerText div {
   border: 1px solid #fff;
-  padding: 10px;
+  padding: 25px 10px;
   width: 60%;
   margin-left: auto;
   margin-right: auto;
@@ -181,7 +181,9 @@ hr.small {
 /* About */
 
 .about {
-    padding: 50px 0;
+    padding: 30px 0;
+    background: #384563;
+    color: #fff;
 }
 
 /* Services */
