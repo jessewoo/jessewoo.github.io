@@ -215,7 +215,9 @@ section {
     margin-bottom: 15px;
 }
 
-
+#recommendations blockquote {
+  font-size: 14px;
+}
 
 /* Footer */
 footer {
