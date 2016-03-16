@@ -16,9 +16,7 @@
 
     <!-- Fonts -->
     <link href='https://fonts.googleapis.com/css?family=Oswald' rel='stylesheet' type='text/css'>
-
-  </head>
-
+    <link href='https://fonts.googleapis.com/css?family=Fjalla+One' rel='stylesheet' type='text/css'>
   <body>
     <!-- Navigation -->
     <a id="menu-toggle" href="#" class="btn btn-dark btn-lg toggle"><i class="fa fa-bars"></i></a>
@@ -30,7 +28,6 @@
             <li><a href="#about" onclick = $("#menu-close").click(); >About Me</a></li>
             <li><a href="#portfolio" onclick = $("#menu-close").click(); >Portfolio</a></li>
             <li><a href="#casestudy-rcsb" onclick = $("#menu-close").click(); >UX Case Study: RCSB PDB</a></li>
-            <li><a href="#timeline" onclick = $("#menu-close").click(); >Timeline</a></li>
             <li><a href="#recommendations" onclick = $("#menu-close").click(); >LinkedIn Recs</a></li>
             <li><a href="#videoproduction" onclick = $("#menu-close").click(); >Video Production</a></li>
             <li><a href="#contact" onclick = $("#menu-close").click(); >Contact</a></li>
@@ -48,7 +45,7 @@
     </header>
 
     <!-- About -->
-    <section id="about" class="about">
+    <section id="about">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
@@ -58,7 +55,7 @@
             </div>
             <div class="row">
                 <div class="col-lg-7 col-lg-offset-1">
-                    <h2>Jesse Woo</h2>
+                    <h3>Jesse Woo</h3>
                     <h4>Front-end Developer, User Experience Designer &amp; Leader</h4>
                     <p>Seasoned professional responsible for designing, prototyping, developing and maintaining web apps and assets within a fast-paced environment, having a common sense approach towards user experience, and the skills plus experience acquiring targeted traffic and managing online marketing campaigns.</p>
                     <p>Specialties: Front-end web development, user experience (UX), graphic design, video production, photography, ROI-driven online marketing</p>
@@ -71,7 +68,7 @@
     </section>
 
     <!-- Portfolio -->
-    <section id="portfolio" class="portfolio">
+    <section id="portfolio">
         <div class="container">
             <div class="row">
               <div class="col-lg-12 text-center">
@@ -190,7 +187,7 @@
     </section>
 
     <!-- Case Study : RCSB PDB-->
-    <section id="casestudy-rcsb" class="casestudy">
+    <section id="casestudy-rcsb">
       <div class="container">
           <div class="row">
             <div class="col-lg-12 text-center">
@@ -228,24 +225,11 @@
               <p>The last point was a road block in the brainstorming phase of the homepage redesign. Was there a solution of making core features and tools accessible to users? Eventually after a month in January 2014, with an epiphany, I suggested a two-tier panel section similar in "design" of a vertical navigation with static dropdown menus. After deliberating and presenting this solution to the leadership team, the site was "green-light" to proceed with code development.</p>
               <p>After much discussions, team meetings, whiteboard scribbles, prototyping, and hundred of hours of code development and testing, the redesigned homepage became a reality.</p>
               <p>As the lead front-end developer, I personally took charge of this monumental project, which met expectations and deadlines. Once released, the redesiged RCSB PDB homepage was well received by the scientific communnity and team members.</p>
-              <p>With the redesigned framework (style guide, Twitter Bootstrap) was set, subsequent pages like the Structure Summary page (2015) and the Search Results page (2016) was given a facelift and user interactions were tightened down.</p>
+              <p>With the redesigned framework (style guide, Twitter Bootstrap) was set, subsequent pages like the Structure Summary page (2015) and the Search Results page (2016) was given a facelift, information was organized, and various user interactions were tightened down.</p>
             </div>
           </div>
           <div class="row">
-            <ul>
-                <li></li>
-            </ul>
-          </div>
-      </div>
-    </section>
-
-    <!-- Timeline-->
-    <section id="timeline">
-      <div class="container">
-          <div class="row">
-            <div class="col-lg-12 text-center">
-                <h2>Work Experience Timeline</h2>
-            </div>
+<!--  Other stuff -->
           </div>
       </div>
     </section>
@@ -255,9 +239,22 @@
       <div class="container">
           <div class="row">
             <div class="col-lg-12 text-center">
-                <h2>LinkedIn Recommendations</h2>
+                <h2>Recommendations</h2>
+                <p>from LinkedIn over the years</p>
             </div>
           </div>
+          <div class="row">
+            <div class="col-lg-4">
+                <p>I worked with and managed Jesse during his time at Ampush. Jesse was a hard worker who was an integral part of the media buying team and primarily responsible for building out much of our search and contextual campaign portfolio. He was a true team player who wore many different hats during his time at Ampush, always being flexible with what he worked on to try to help out where he was needed most</p>
+                <h5><a href="https://www.linkedin.com/in/koby-simantob-850b3150" target="_blank">Koby Simantob</a>, manager at Ampush</h5>
+            </div>
+            <div class="col-lg-4">
+                <p>Jesse is a great team player, willing to contribute in a number of ways, both inside his direct area of job function and outside it. During his time at Ampush, Jesse has been an important contributor, helping the company to scale and grow over 2 years from 15 people to over 55, contributing directly in paid media campaign building and management, as well as in landing page building and optimization</p>
+                <h5><a href="https://www.linkedin.com/profile/view?id=AAEAAAFTfl0Bzs5ieklhhXPOzrED_8Dcav2LSf0&authType=name&authToken=TqiG" target="_blank">Koby Simantob</a>, indirect manager at Ampush</h5>
+            </div>
+          </div>
+
+
       </div>
     </section>
 
@@ -267,6 +264,8 @@
           <div class="row">
             <div class="col-lg-12 text-center">
                 <h2>Video Production</h2>
+                <p>applying concepts from work to filming</p>
+
             </div>
           </div>
       </div>
@@ -275,10 +274,13 @@
 	<!-- FOOTER -->
   <footer class="footer" id="contact">
   	<div class="container">
-  		<p class="text-muted">
-  			<i class="fa fa-twitter-square"></i> Twitter: <a href="https://twitter.com/rcsbpdb" target="_blank">Twitter</a> -
-  			<i class="fa fa-github-square"></i> GitHub: <a href="https://github.com/rcsb" target="_blank">GitHub</a>
-  		</p>
+      <div class="row">
+        <div class="col-lg-12 text-center">
+  		      <a href="https://www.linkedin.com/pub/jesse-woo/5/658/a58" target="_blank"><i class="fa fa-linkedin-square fa-2x"></i></a>
+            <a href="https://www.flickr.com/search/?text=opjessewoo&amp;sort=date-posted-desc" target="_blank"><i class="fa fa-flickr fa-2x"></i></a>
+            <a href="http://vimeo.com/user3082735" target="_blank"><i class="fa fa-vimeo-square fa-2x"></i></a>
+        </div>
+      </div>
   	</div>
   </footer>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
