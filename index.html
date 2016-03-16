@@ -13,6 +13,10 @@
     <link href="ekko-lightbox/ekko-lightbox.css" rel="stylesheet">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
     <link href="css/style.css" rel="stylesheet">
+
+    <!-- Fonts -->
+    <link href='https://fonts.googleapis.com/css?family=Oswald' rel='stylesheet' type='text/css'>
+
   </head>
 
   <body>
@@ -26,8 +30,8 @@
             <li><a href="#about" onclick = $("#menu-close").click(); >About Me</a></li>
             <li><a href="#portfolio" onclick = $("#menu-close").click(); >Portfolio</a></li>
             <li><a href="#casestudy-rcsb" onclick = $("#menu-close").click(); >UX Case Study: RCSB PDB</a></li>
-            <li><a href="#casestudy-turnitin" onclick = $("#menu-close").click(); >UX Case Study: Turnitin</a></li>
             <li><a href="#timeline" onclick = $("#menu-close").click(); >Timeline</a></li>
+            <li><a href="#recommendations" onclick = $("#menu-close").click(); >LinkedIn Recs</a></li>
             <li><a href="#videoproduction" onclick = $("#menu-close").click(); >Video Production</a></li>
             <li><a href="#contact" onclick = $("#menu-close").click(); >Contact</a></li>
         </ul>
@@ -85,8 +89,8 @@
                   </a>
                   <p>An NIH/NSF funded resource that archives data on proteins, nucleic acids, and complex biological assemblies</p>
                   <ul>
-                    <li>Currently developing the next phase of the Search Results page</li>
-                    <li>Designed, showcased prototypes and developed redesign site</li>
+                    <li>Currently developing the next phase of the Search Results page with JAVA, RESTful API, and JSON objects</li>
+                    <li>Designed, showcased prototypes and developed redesign site using JSP/Struts/Tiles/WRO and HTML/CSS/JS/Bootstrap</li>
                     <li>See <a href="#casestudy-rcsb">case study</a> on the process</li>
                   </ul>
               </div>
@@ -168,7 +172,7 @@
                   <ul>
                     <li>Designed and developed the college textbook comparison site using PHP/HTML/CSS/JS/MySQL, also utilizing Amazon’s API and Chegg's database</li>
                     <li>Purchased traffic thru Google Adwords and Bing</li>
-                    <li>View screenshots: <a href="images/portfolio-campustextbookdeals.png" data-toggle="lightbox" data-title="Campus Textbook Deals - Info Page">homepage</a>, <a href="images/portfolio-campustextbookdeals2.png" data-toggle="lightbox" data-title="Campus Textbook Deals - Info Page">info page</a></li>
+                    <li>View screenshots: <a href="images/portfolio-campustextbookdeals.png" data-toggle="lightbox" data-title="Campus Textbook Deals - Homepage" data-gallery="ctd">homepage</a>, <a href="images/portfolio-campustextbookdeals2.png" data-toggle="lightbox" data-title="Campus Textbook Deals - Compare Price Page" data-gallery="ctd">comparison page</a></li>
                   </ul>
               </div>
               <div class="col-lg-3 ol-xs-12">
@@ -176,7 +180,7 @@
                   <h4>Turnitin</h4>
                   <p>Anti-Plagiarism tool used by many universities and high school</p>
                   <ul>
-                    <li>Designed lo and hi-fidelity User Interface specifications for product features: LMS integrations (eg Blackboard, Moodle), bulk upload paper submission</li>
+                    <li>Designed lo and hi-fidelity User Interface specifications for product features: <a href="images/turnitin/Administration_Dashboard_Expiration.jpg" target="_blank">LMS integrations</a> (eg Blackboard, Moodle), <a href="images/turnitin/Bulk Upload Degraded Version-May_18th_2009.png" target="_blank">bulk upload paper submission</a></li>
                     <li>Developed front-end code using HTML/CSS/JS</li>
                     <li>Planned, designed and conducted usability tests</li>
                   </ul>
@@ -194,42 +198,82 @@
             </div>
           </div>
           <div class="row">
-            <div class="col-lg-7">
+            <div class="col-lg-6">
+              <h3>Before and After</h3>
+              <h4>Homepage and static pages</h4>
+              <h4>Structure Summary page</h4>
+              <h4>Search Results page</h4>
+              <hr>
+              <h3>Presentations presented to team</h3>
+              <ul>
+                <li><a href="pdf/rcsb/20130531_InitialAssessment.pdf" target="_blank">Initial Assessment (5/31/13)</a></li>
+                <li><a href="pdf/rcsb/20130731_RedesignProposal.pdf" target="_blank">Redesign Proposal (7/31/13)</a></li>
+                <li><a href="pdf/rcsb/20131025_HomepageMockup.pdf" target="_blank">Homepage Mockups (10/25/13)</a></li>
+                <li><a href="pdf/rcsb/20140904_AllHandsDeck.pdf" target="_blank">All Hands On Deck Presentation (9/4/14)</a></li>
+                <li><a href="pdf/rcsb/20150412_StructureSummaryPage.pdf" target="_blank">Structure Summary Redesign (4/12/15)</a></li>
+              </ul>
 
             </div>
-            <div class="col-lg-5">
-              <p>In 2013, the entire RCSB PDB team discussed our mission statement of being a premiere scientific site focused on usability and being cutting edge in delivering quality data and advanced tools, and we came to a consensus that the site needed to be redesigned. Not just to keep up with current design trends, but to do the following:</p>
+            <div class="col-lg-6">
+              <p>In 2013, the entire RCSB PDB team discussed our mission statement of being a premiere scientific site focused on usability and being cutting edge in delivering quality data and advanced tools. Consequently, we came to a consensus that the site needed to be redesigned - starting with the homepage. Not just to keep up with current design trends, but to do the following on the most visited page:</p>
               <ul>
                   <li>Reduce information overload and redundancy</li>
                   <li>Organize and group related content</li>
                   <li>Catch all different user groups from high school students to scientists</li>
                   <li>Think through user flow and goals, making it easier to accomplish tasks</li>
-                  <li>Addressing user needs: make core features and tool more visible</li>
                   <li>Usher in new yet proven web technology to handle expanding scientific content</li>
+                  <li>Able to be mobile and tablet responsive</li>
+                  <li>Addressing user needs: make core features and tool more visible</li>
               </ul>
-              <p>One huge road block was solving the issue of making core features and tools accessible to users.</p>
-              <p>After much discussions, team meetings, whiteboard scribbles, prototyping, and hundred of hours of code development and testing, the redesigned site became a reality.</p>
-              <p>As the front-end developer of the team, I took charge of the monumental project. I'm proud that redesiged RCSB PDB site was well received by the scientific communnity and team members.</p>
-              <p>And once the redesigned framework was in place, subsequent pages like the Structure Summary Page and Search Results page was given a facelift and user interactions were tightened down.</p>
+              <p>The last point was a road block in the brainstorming phase of the homepage redesign. Was there a solution of making core features and tools accessible to users? Eventually after a month in January 2014, with an epiphany, I suggested a two-tier panel section similar in "design" of a vertical navigation with static dropdown menus. After deliberating and presenting this solution to the leadership team, the site was "green-light" to proceed with code development.</p>
+              <p>After much discussions, team meetings, whiteboard scribbles, prototyping, and hundred of hours of code development and testing, the redesigned homepage became a reality.</p>
+              <p>As the lead front-end developer, I personally took charge of this monumental project, which met expectations and deadlines. Once released, the redesiged RCSB PDB homepage was well received by the scientific communnity and team members.</p>
+              <p>With the redesigned framework (style guide, Twitter Bootstrap) was set, subsequent pages like the Structure Summary page (2015) and the Search Results page (2016) was given a facelift and user interactions were tightened down.</p>
+            </div>
+          </div>
+          <div class="row">
+            <ul>
+                <li></li>
+            </ul>
+          </div>
+      </div>
+    </section>
+
+    <!-- Timeline-->
+    <section id="timeline">
+      <div class="container">
+          <div class="row">
+            <div class="col-lg-12 text-center">
+                <h2>Work Experience Timeline</h2>
             </div>
           </div>
       </div>
     </section>
 
-    <!-- Case Study : RCSB PDB-->
-    <section id="casestudy-turnitin" class="casestudy">
+    <!-- Recommendations-->
+    <section id="recommendations">
       <div class="container">
           <div class="row">
             <div class="col-lg-12 text-center">
-                <h2>Case Study: Turnitin</h2>
-                <p>web development, ux designs, graphic design</p>
+                <h2>LinkedIn Recommendations</h2>
+            </div>
+          </div>
+      </div>
+    </section>
+
+    <!-- Video Production-->
+    <section id="videoproduction">
+      <div class="container">
+          <div class="row">
+            <div class="col-lg-12 text-center">
+                <h2>Video Production</h2>
             </div>
           </div>
       </div>
     </section>
 
 	<!-- FOOTER -->
-  <footer class="footer">
+  <footer class="footer" id="contact">
   	<div class="container">
   		<p class="text-muted">
   			<i class="fa fa-twitter-square"></i> Twitter: <a href="https://twitter.com/rcsbpdb" target="_blank">Twitter</a> -
