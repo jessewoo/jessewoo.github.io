@@ -181,12 +181,21 @@ hr.small {
 
 #bannerText h1 {
   text-transform: uppercase;
+  font-family: 'Oswald', sans-serif;
+  font-size: 70px;
 }
 
 /* Sections */
 section {
     padding: 50px 0;
 }
+
+section h2 {
+  font-family: 'Oswald', sans-serif;
+  text-transform: uppercase;
+  font-size: 40px;
+}
+
 
 /* About Me Section */
 #about {
@@ -195,9 +204,7 @@ section {
     color: #fff;
 }
 
-#about h2 {
-  font-family: 'Fjalla One', sans-serif;
-}
+
 
 
 /* Portfolio */
@@ -206,17 +213,25 @@ section {
     background-color: #ECECEC;
 }
 
-#portfolio h2{
-    font-family: 'Oswald', sans-serif;
-    text-transform: uppercase;
-}
-
 #portfolio div {
     margin-bottom: 15px;
 }
 
+#casestudy-rcsb {
+  background-color: rgba(0, 75, 128, 0.11);
+}
+
+#casestudy-rcsb hr {
+  border-color: #CCC;
+}
+
+#recommendations {
+  background-color: rgba(242, 222, 222, 0.58);
+}
+
 #recommendations blockquote {
   font-size: 14px;
+  border-right: 5px solid #a94442;
 }
 
 /* Footer */
