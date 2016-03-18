@@ -224,6 +224,10 @@ section h2 {
   border-color: #CCC;
 }
 
+#casestudy-rcsb .rcsbicon {
+  width: 100px;
+}
+
 #recommendations {
   background-color: rgba(242, 222, 222, 0.58);
 }
