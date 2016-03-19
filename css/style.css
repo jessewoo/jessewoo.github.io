@@ -228,6 +228,11 @@ section h2 {
   width: 100px;
 }
 
+.paragraphicon {
+  width: 110px;
+  margin: 0 15px 10px 0;
+}
+
 #recommendations {
   background-color: rgba(242, 222, 222, 0.58);
 }
