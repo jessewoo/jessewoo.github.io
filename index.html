@@ -26,6 +26,7 @@
             <li class="sidebar-brand"><a href="#top" onclick = $("#menu-close").click(); >Jesse Woo</a></li>
             <li><a href="#top" onclick = $("#menu-close").click(); >Home</a></li>
             <li><a href="#about" onclick = $("#menu-close").click(); >About Me</a></li>
+            <li><a href="#techskills" onclick = $("#menu-close").click(); >Technical Skills</a></li>
             <li><a href="#portfolio" onclick = $("#menu-close").click(); >Portfolio</a></li>
             <li><a href="#casestudy-rcsb" onclick = $("#menu-close").click(); >Case Study: RCSB PDB</a></li>
             <li><a href="#recommendations" onclick = $("#menu-close").click(); >Recommendations</a></li>
@@ -78,12 +79,23 @@
           <div class="row">
             <div class="col-lg-12 text-center">
                 <h2>Technical Skills</h2>
-                <p>web development and design</p>
+                <p>number of years</p>
             </div>
+            <br>
           </div>
             <div class="row">
-              <div class="text-center">
-                  <canvas id="skills" width="300" height="300"></canvas>
+              <div class="col-lg-6 col-md-12 col-sm-12 text-center">
+                  <h4>Frontend Development</h4>
+                  <canvas id="frontendskills" width="550" height="400"></canvas><hr>
+                  <small>
+                    <strong>Javascript</strong> includes Twitter bootstrap, AJAX, use of JSON objects<br>
+                    <strong>Java</strong> includes JSP, Java backend, WRO, Struts, Tiles<br>
+                    <strong>MEAN stack</strong> includes MongoDB, Express, NodeJS
+                  </small>
+              </div>
+              <div class="col-lg-6 col-md-12 col-sm-12 text-center">
+                  <h4>Design and UX Concepts</h4>
+                  <canvas id="designskills" width="550" height="400"></canvas>
               </div>
             </div>
           </div>
@@ -443,31 +455,38 @@
     </script>
 
     <script>
-    var pieData = [
-       {
-          value: 25,
-          label: 'Java',
-          color: '#811BD6'
-       },
-       {
-          value: 10,
-          label: 'Scala',
-          color: '#9CBABA'
-       },
-       {
-          value: 30,
-          label: 'PHP',
-          color: '#D18177'
-       },
-       {
-          value : 35,
-          label: 'HTML',
-          color: '#6AE128'
-       }
-    ];
 
-    var context = document.getElementById('skills').getContext('2d');
-    var skillsChart = new Chart(context).Pie(pieData);
+      var frontendskillsData = {
+      	labels : ["PHP/HTML/CSS","Javascript/jQuery","MySQL/Databases","Java","MEAN stack"],
+      	datasets : [
+      		{
+      			fillColor : "rgba(172,194,132,0.4)",
+      			strokeColor : "#ACC26D",
+      			pointColor : "#fff",
+      			pointStrokeColor : "#9DB86D",
+      			data : [7,6,2,3,1]
+      		}
+      	]
+      }
+      var frontendskills = document.getElementById('frontendskills').getContext('2d');
+      new Chart(frontendskills).Line(frontendskillsData);
+
+
+      var designData = {
+      	labels : ["UX/UI Concepts","Photoshop","Presentations","Premiere","After Effects"],
+      	datasets : [
+      		{
+      			fillColor : "rgba(151,187,205,0.2)",
+      			strokeColor : "rgba(151,187,205,1)",
+      			pointColor : "rgba(151,187,205,1)",
+      			pointStrokeColor : "#9DB86D",
+      			data : [7,16,4,9,1]
+      		}
+      	]
+      }
+
+      var designskills = document.getElementById('designskills').getContext('2d');
+      new Chart(designskills).Line(designData);
 
 
     </script>
