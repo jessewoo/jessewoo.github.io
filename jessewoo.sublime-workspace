@@ -1,0 +1,354 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"to",
+				"to_s"
+			],
+			[
+				"chec",
+				"checkSearchResultsurl"
+			],
+			[
+				"time",
+				"timeStart"
+			],
+			[
+				"search",
+				"search_bar"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "index.html",
+			"settings":
+			{
+				"buffer_size": 33612,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/Users/jessewoo/GIT/jessewoo"
+	],
+	"file_history":
+	[
+		"/Users/jessewoo/GIT/RCSB-Automated-Tests/rcsb_testing_prototype/features/step_definitions/advanced_search_steps.rb",
+		"/Users/jessewoo/GIT/RCSB-Automated-Tests/rcsb_testing_prototype/features/basic_test_suite.feature",
+		"/Users/jessewoo/GIT/RCSB-Automated-Tests/rcsb_testing_prototype/features/step_definitions/homepage_steps.rb",
+		"/Users/jessewoo/GIT/RCSB-Automated-Tests/scripts/test_run_browser.rb",
+		"/Users/jessewoo/GIT/RCSB-Automated-Tests/rcsb_testing_prototype/features/support/hooks.rb",
+		"/Users/jessewoo/GIT/RCSB-Automated-Tests/scripts/cucumber_scripts.sh",
+		"/Users/jessewoo/GIT/RCSB-Automated-Tests/rcsb_testing_prototype/features/all_scenarios/basic_test_suite_all.feature",
+		"/Users/jessewoo/GIT/RCSB-Automated-Tests/rcsb_testing_prototype/features/basic_test_suite_all.feature",
+		"/Users/jessewoo/GIT/RCSB-Automated-Tests/scripts/test_run.rb",
+		"/Users/jessewoo/GIT/RCSB-Automated-Tests/rcsb_testing_prototype/features/support/pages/search_results_page.rb",
+		"/Users/jessewoo/GIT/RCSB-Automated-Tests/rcsb_testing_prototype/features/step_definitions/search_results_steps.rb",
+		"/Users/jessewoo/GIT/RCSB-Automated-Tests/scripts/install_ruby.sh",
+		"/Users/jessewoo/GIT/RCSB-Automated-Tests/rcsb_testing_prototype/features/support/pages/home_page.rb",
+		"/Users/jessewoo/GIT/RCSB-Automated-Tests/rcsb_testing_prototype/features/step_definitions/structure_summary_steps.rb",
+		"/Users/jessewoo/GIT/RCSB-Automated-Tests/rcsb_testing_prototype/features/all_scenarios/searchresults_all.feature",
+		"/Users/jessewoo/GIT/RCSB-Automated-Tests/rcsb_testing_prototype/features/support/pages/advanced_search_page.rb",
+		"/Users/jessewoo/GIT/RCSB-Automated-Tests/rcsb_testing_prototype/features/structuresummary_ui_tests.feature",
+		"/Users/jessewoo/GIT/RCSB-Automated-Tests/rcsb_testing_prototype/features/support/pages/structure_3d_page.rb",
+		"/Users/jessewoo/GIT/RCSB-Automated-Tests/rcsb_testing_prototype/features/support/pages/structure_summary_page.rb",
+		"/Users/jessewoo/GIT/RCSB-Automated-Tests/rcsb_testing_prototype/features/support/pages/structure_page_common.rb",
+		"/Users/jessewoo/GIT/RCSB-Automated-Tests/rcsb_testing_prototype/features/support/pages/common_utils.rb",
+		"/Users/jessewoo/GIT/RCSB-Automated-Tests/rcsb_testing_prototype/features/step_definitions/server_response_steps.rb",
+		"/Users/jessewoo/GIT/RCSB-Automated-Tests/rcsb_testing_prototype/features/restful_response.feature",
+		"/Users/jessewoo/GIT/RCSB-Automated-Tests/rcsb_testing_prototype/features/server_response.feature",
+		"/Users/jessewoo/GIT/RCSB-Automated-Tests/rcsb_testing_prototype/features/support/pages/structure_summary_common.rb",
+		"/Users/jessewoo/GIT/RCSB-Automated-Tests/rcsb_testing_prototype/features/browsers_ui_tests.feature",
+		"/Users/jessewoo/GIT/RCSB-Automated-Tests/rcsb_testing_prototype/features/ftp_response.feature",
+		"/Users/jessewoo/GIT/RCSB-Automated-Tests/rcsb_testing_prototype/features/ligandsummary_ui_tests.feature",
+		"/Users/jessewoo/GIT/RCSB-Automated-Tests/rcsb_testing_prototype/Gemfile",
+		"/Users/jessewoo/GIT/RCSB-Automated-Tests/rcsb_testing_prototype/features/support/pages/server_response_page.rb",
+		"/Users/jessewoo/GIT/RCSB-Automated-Tests/rcsb_testing_prototype/features/support/server_response.feature",
+		"/Users/jessewoo/GIT/RCSB-Automated-Tests/rcsb_testing_prototype/screenshots/FAILED_All_Structures_Search_Results.png",
+		"/Users/jessewoo/GIT/RCSB-Automated-Tests/rcsb_testing_prototype/features/support/pages/homepage_panel_nav.rb",
+		"/Users/jessewoo/GIT/RCSB-Automated-Tests/rcsb_testing_prototype/features/homepage_ui_tests.feature",
+		"/Users/jessewoo/GIT/RCSB-Automated-Tests/rcsb_testing_prototype/cucumber.yml",
+		"/Users/jessewoo/GIT/RCSB-Automated-Tests/rcsb_testing_prototype/features/support/rtf_formatter.rb",
+		"/Users/jessewoo/GIT/RCSB-Automated-Tests/rcsb_testing_prototype/Rakefile",
+		"/Users/jessewoo/GIT/RCSB-Automated-Tests/rcsb_testing_prototype/features/support/pages/common_searchbar.rb",
+		"/Users/jessewoo/GIT/RCSB-Automated-Tests/rcsb_testing_prototype/features/support/pages/download_page.rb",
+		"/Users/jessewoo/GIT/RCSB-Automated-Tests/rcsb_testing_prototype/spec/spec_helper.rb",
+		"/Users/jessewoo/GIT/RCSB-Automated-Tests/scripts/install_phantomjs.sh",
+		"/Users/jessewoo/GIT/RCSB-Automated-Tests/scripts/run_cucumber.sh",
+		"/Users/jessewoo/GIT/RCSB-Automated-Tests/Starter/install_ruby.sh",
+		"/Users/jessewoo/GIT/RCSB-Automated-Tests/Starter/install_phantomjs.sh",
+		"/Users/jessewoo/GIT/RCSB-Automated-Tests/rcsb_testing_prototype/output.html",
+		"/Users/jessewoo/GIT/RCSB-Automated-Tests/rcsb_testing_prototype/features/support/env.rb",
+		"/Users/jessewoo/GIT/RCSB-Automated-Tests/Starter/test_run.rb",
+		"/Users/jessewoo/GIT/RCSB-Automated-Tests/Test/test.rb",
+		"/Users/jessewoo/GIT/RCSB-Automated-Tests/rcsb_testing_prototype/config/data/default.yml",
+		"/Users/jessewoo/GIT/RCSB-Automated-Tests/rcsb_testing_prototype/features/support/pages/reports_page.rb",
+		"/Users/jessewoo/GIT/RCSB-Automated-Tests/rcsb_testing_prototype/features/all_scenarios/homepage_all.feature",
+		"/Users/jessewoo/GIT/RCSB-Automated-Tests/rcsb_testing_prototype/features/homepage_all.feature",
+		"/Users/jessewoo/GIT/RCSB-Automated-Tests/rcsb_testing_prototype/features/advancedsearch_behavior.feature",
+		"/Users/jessewoo/GIT/TestingFramework/rcsb_testing_prototype/features/support/hooks.rb",
+		"/Users/jessewoo/GIT/TestingFramework/rcsb_testing_prototype/features/step_definitions/search_results_steps.rb",
+		"/Users/jessewoo/GIT/TestingFramework/rcsb_testing_prototype/features/support/pages/search_results_page.rb",
+		"/Users/jessewoo/GIT/TestingFramework/test_puppies/features/support/pages/checkout_page.rb",
+		"/Users/jessewoo/GIT/TestingFramework/test_puppies/features/step_definitions/adopting_puppy_steps.rb",
+		"/Users/jessewoo/GIT/TestingFramework/rcsb_testing_prototype/screenshot_NextPage.png",
+		"/Users/jessewoo/GIT/TestingFramework/rcsb_testing_prototype/screenshot_Detailed.png",
+		"/Users/jessewoo/GIT/TestingFramework/rcsb_testing_prototype/screenshot.png",
+		"/Users/jessewoo/GIT/TestingFramework/rcsb_testing_prototype/features/support/pages/home_page.rb",
+		"/Users/jessewoo/GIT/TestingFramework/rcsb_testing_prototype/features/support/pages/search_bar.rb",
+		"/Users/jessewoo/GIT/TestingFramework/rcsb_testing_prototype/features/support/pages/main_nav_panel.rb",
+		"/Users/jessewoo/GIT/TestingFramework/test_puppies/features/support/pages/side_menu_panel.rb",
+		"/Users/jessewoo/GIT/TestingFramework/rcsb_testing_prototype/features/searchresults_behavior.feature",
+		"/Users/jessewoo/GIT/TestingFramework/rcsb_testing_prototype/features/homepage_behavior.feature",
+		"/Users/jessewoo/GIT/TestingFramework/features/Rcsb_Search.feature",
+		"/Users/jessewoo/GIT/TestingFramework/test_headless/features/home_page.feature",
+		"/Users/jessewoo/GIT/TestingFramework/test_headless2/features/support/env.rb",
+		"/Users/jessewoo/GIT/TestingFramework/rcsb_testing_prototype/features/support/env.rb",
+		"/Users/jessewoo/GIT/TestingFramework/rcsb_testing_prototype/spec/spec_helper.rb",
+		"/Users/jessewoo/GIT/TestingFramework/rcsb_testing_prototype/spec/syntaxes_spec.rb",
+		"/Users/jessewoo/GIT/TestingFramework/test_headless2/features/step_definitions/rcsb_homepage_steps.rb",
+		"/Users/jessewoo/GIT/TestingFramework/rcsb_testing_prototype/headless_test.rb",
+		"/Users/jessewoo/GIT/TestingFramework/test_headless2/features/rcsb_homepage.feature",
+		"/Users/jessewoo/GIT/TestingFramework/test_headless2/features/support/pages/home_page.rb",
+		"/Users/jessewoo/GIT/TestingFramework/test_headless2/Gemfile",
+		"/Users/jessewoo/GIT/TestingFramework/rcsb_testing_prototype/features/step_definitions/browsing_homepage_steps.rb",
+		"/Users/jessewoo/GIT/TestingFramework/test_headless2/features/support/pages/main_nav_panel.rb",
+		"/Users/jessewoo/GIT/TestingFramework/test_headless2/features/support/hook.rb",
+		"/Users/jessewoo/GIT/TestingFramework/test_headless2/features/spec/spec_helper.rb",
+		"/Users/jessewoo/GIT/TestingFramework/test_headless2/test.png",
+		"/Users/jessewoo/GIT/TestingFramework/test_headless/features/step_definitions/google_steps.rb",
+		"/Users/jessewoo/GIT/TestingFramework/test_headless/features/support/hook.rb",
+		"/Users/jessewoo/GIT/TestingFramework/test_headless/features/support/env.rb",
+		"/Users/jessewoo/GIT/TestingFramework/test_headless/features/Gemfile",
+		"/Users/jessewoo/GIT/TestingFramework/test_headless/Gemfile",
+		"/Users/jessewoo/GIT/TestingFramework/test_puppies/features/adopting_puppies.feature",
+		"/Users/jessewoo/GIT/TestingFramework/rcsb_testing_prototype/features/step_definitions/login_mypdb_steps.rb",
+		"/Users/jessewoo/GIT/TestingFramework/rcsb_testing_prototype/Gemfile",
+		"/Users/jessewoo/GIT/TestingFramework/rcsb_testing_prototype/features/support/pages/downloads_page.rb",
+		"/Users/jessewoo/GIT/TestingFramework/rcsb_testing_prototype/features/support/pages/structure_summary_page.rb",
+		"/Users/jessewoo/GIT/TestingFramework/rcsb_testing_prototype/features/step_definitions/admin_puppy_steps.rb",
+		"/Users/jessewoo/GIT/TestingFramework/rcsb_testing_prototype/features/support/pages/error_panel.rb",
+		"/Users/jessewoo/GIT/TestingFramework/rcsb_testing_prototype/features/step_definitions/adopting_puppy_steps.rb",
+		"/Users/jessewoo/GIT/TestingFramework/rcsb_testing_prototype/features/step_definitions/transformations.rb",
+		"/Users/jessewoo/GIT/TestingFramework/rcsb_testing_prototype/Rakefile",
+		"/Users/jessewoo/GIT/TestingFramework/rcsb_testing_prototype/features/support/pages/shopping_cart_page.rb",
+		"/Users/jessewoo/GIT/TestingFramework/test_puppies/features/support/pages/home_page.rb",
+		"/Users/jessewoo/GIT/TestingFramework/test_puppies/features/support/pages/shopping_cart_page.rb",
+		"/Users/jessewoo/GIT/TestingFramework/test_puppies/features/starting_point.feature",
+		"/Users/jessewoo/GIT/TestingFramework/test_puppies/Gemfile",
+		"/Users/jessewoo/GIT/TestingFramework/start_puppies/view_rcsb_db.rb",
+		"/Users/jessewoo/GIT/TestingFramework/test_puppies/features/adopting_puppies_info.feature",
+		"/Users/jessewoo/GIT/TestingFramework/puppies/Gemfile",
+		"/Users/jessewoo/GIT/TestingFramework/puppies/app/controllers/agency_controller.rb",
+		"/Users/jessewoo/GIT/TestingFramework/puppies/app/controllers/application_controller.rb",
+		"/Users/jessewoo/GIT/TestingFramework/puppies/db/development.sqlite3",
+		"/Users/jessewoo/GIT/TestingFramework/puppies/config/environments/test.rb",
+		"/Users/jessewoo/GIT/TestingFramework/puppies/Gemfile.lock",
+		"/Users/jessewoo/GIT/TestingFramework/test_puppies/features/support/env.rb",
+		"/Users/jessewoo/GIT/TestingFramework/test_puppies/features/step_definitions/admin_puppy_steps.rb",
+		"/Users/jessewoo/GIT/TestingFramework/test_puppies/features/support/pages/landing_page.rb",
+		"/Users/jessewoo/GIT/TestingFramework/test_puppies/features/support/pages/process_puppy_page.rb",
+		"/Users/jessewoo/GIT/TestingFramework/test_puppies/features/support/pages/error_panel.rb",
+		"/Users/jessewoo/GIT/TestingFramework/test_puppies/features/support/pages/login_page.rb",
+		"/Users/jessewoo/GIT/TestingFramework/test_puppies/features/support/matchers.rb",
+		"/Users/jessewoo/GIT/TestingFramework/test_puppies/config/data/default.yml",
+		"/Users/jessewoo/GIT/TestingFramework/test_puppies/features/support/hooks.rb"
+	],
+	"find":
+	{
+		"height": 23.0
+	},
+	"find_in_files":
+	{
+		"height": 93.0,
+		"where_history":
+		[
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			">",
+			"eq",
+			"various welcome panels",
+			"I click on various welcome panels",
+			"3000",
+			"mime-types",
+			"i18n",
+			"rake",
+			"addressable"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "index.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 33612,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 1427.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 23.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "jessewoo.sublime-project",
+	"replace":
+	{
+		"height": 42.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 318.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
