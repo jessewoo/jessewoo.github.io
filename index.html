@@ -40,7 +40,7 @@
         <div class="text-vertical-center container" id="bannerText">
             <div>
               <h1>Jesse Woo</h1>
-              <h3>Front-end Developer, User Experience Designer &amp; Leader</h3>
+              <h3>Front-end Developer, User Experience Designer, QA &amp; Leader</h3>
             </div>
           </div>
     </header>
@@ -57,9 +57,10 @@
             <div class="row">
                 <div class="col-lg-7 col-lg-offset-1">
                     <h3>Jesse Woo</h3>
-                    <h4>Front-end Developer, User Experience Designer &amp; Leader</h4>
-                    <p>Seasoned professional responsible for designing, prototyping, developing and maintaining web apps and assets within a fast-paced environment, having a common sense approach towards user experience, and the skills plus experience acquiring targeted traffic and managing online marketing campaigns.</p>
-                    <p>Specialties: Front-end web development, user experience (UX), graphic design, video production, photography, ROI-driven online marketing</p><br>
+                    <h4>Front-end Developer, User Experience Designer, QA &amp; Leader</h4>
+                    <p>Seasoned professional responsible for designing, prototyping, developing and maintaining web apps and assets within a fast-paced environment, having a common sense approach towards user experience, and the skills plus experience acquiring targeted traffic and managing online marketing campaigns. And recently, added in automated testing to tackle regression testing for any new features.</p>
+                    <p>Continually extending my knowledge, as I'm currently learning the following: React/Redux, AngularJS, NodeJS, Javascript objects and classes, Ruby on Rails</p>
+                    <p>Specialties: Front-end web development, user experience (UX), automated testing, graphic design, video production, photography, ROI-driven online marketing</p><br>
                     <a href="pdf/Resume_JesseWoo.pdf" class="btn btn-default" target="_blank">Download PDF Resume</a>
                     <hr>
                     <h4>Education and Work Experience</h4>
@@ -88,14 +89,18 @@
                   <h4>Frontend Development</h4>
                   <canvas id="frontendskills" width="550" height="400"></canvas><hr>
                   <small>
-                    <strong>Javascript</strong> includes Twitter bootstrap, AJAX, use of JSON objects<br>
+                    <strong>Javascript</strong> includes jQuery, AJAX, REST API, React Framework<br>
                     <strong>Java</strong> includes JSP, Java backend, WRO, Struts, Tiles<br>
-                    <strong>MEAN stack</strong> includes MongoDB, Express, NodeJS
+                    <strong>MEAN stack</strong> includes MongoDB, Express, NodeJS, AngularJS, Jade templates<br>
+                    <strong>Testing</strong> - includes Ruby, cucumber, page-objects, watir-webdriver, phantomJS
                   </small>
               </div>
               <div class="col-lg-6 col-md-12 col-sm-12 text-center">
                   <h4>Design and UX Concepts</h4>
-                  <canvas id="designskills" width="550" height="400"></canvas>
+                  <canvas id="designskills" width="550" height="400"></canvas><hr>
+                  <small>
+                    <strong>Design</strong> includes Twitter Bootstrap<br>
+                  </small>
               </div>
             </div>
           </div>
@@ -121,7 +126,8 @@
                   </a>
                   <p>An NIH/NSF funded resource that archives data on proteins, nucleic acids, and complex biological assemblies</p>
                   <ul>
-                    <li>Currently developing the next phase of the Search Results page with JAVA, RESTful API, and JSON objects</li>
+                    <li>Developed a <a href="https://github.com/jessewoo/TestingFramework">new testing framework</a> using Ruby, Watir-webdriver, Cucumber, Page-Object</li>
+                    <li>Developed the next phase of the Search Results page with JAVA, RESTful API, and JSON objects</li>
                     <li>Designed, showcased prototypes and developed redesign site using JSP/Struts/Tiles/WRO and HTML/CSS/JS/Bootstrap</li>
                     <li>See <a href="#casestudy-rcsb">case study</a> on the process</li>
                   </ul>
@@ -395,6 +401,7 @@
   	<div class="container">
       <div class="row">
         <div class="col-lg-12 text-center">
+            <a href="https://github.com/jessewoo" target="_blank"><i class="fa fa-github-square fa-2x"></i></a>
   		      <a href="https://www.linkedin.com/pub/jesse-woo/5/658/a58" target="_blank"><i class="fa fa-linkedin-square fa-2x"></i></a>
             <a href="https://www.flickr.com/search/?text=opjessewoo&amp;sort=date-posted-desc" target="_blank"><i class="fa fa-flickr fa-2x"></i></a>
             <a href="http://vimeo.com/user3082735" target="_blank"><i class="fa fa-vimeo-square fa-2x"></i></a>
@@ -457,14 +464,14 @@
     <script>
 
       var frontendskillsData = {
-      	labels : ["PHP/HTML/CSS","Javascript/jQuery","MySQL/Databases","Java","MEAN stack"],
+      	labels : ["PHP/HTML/CSS","jQuery","MySQL","Java","MEAN","Testing"],
       	datasets : [
       		{
       			fillColor : "rgba(172,194,132,0.4)",
       			strokeColor : "#ACC26D",
       			pointColor : "#fff",
       			pointStrokeColor : "#9DB86D",
-      			data : [7,6,2,3,1]
+      			data : [7,6,2,3,1.5,1.5]
       		}
       	]
       }
