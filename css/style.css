@@ -167,6 +167,10 @@ hr.small {
     -o-background-size: cover;
 }
 
+.header-short {
+  height: 100px;
+}
+
 #bannerText {
   color: #fff;
 }
@@ -179,10 +183,25 @@ hr.small {
   margin-right: auto;
 }
 
+.header-short #bannerText div {
+  border: none;
+  margin-left: 0;
+}
+
 #bannerText h1 {
   text-transform: uppercase;
   font-family: 'Oswald', sans-serif;
   font-size: 70px;
+}
+
+.header-short #bannerText h1 {
+  text-transform: uppercase;
+  font-family: 'Oswald', sans-serif;
+  font-size: 40px;
+}
+
+.header-short #bannerText h1 a {
+  color: white;
 }
 
 /* Sections */
@@ -204,7 +223,6 @@ section h2 {
     background: #384563;
     color: #fff;
 }
-
 
 /* Portfolio */
 
