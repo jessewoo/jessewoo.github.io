@@ -29,7 +29,9 @@
             <li><a href="#techskills" onclick = $("#menu-close").click(); >Technical Skills</a></li>
             <li><a href="#portfolio" onclick = $("#menu-close").click(); >Portfolio</a></li>
             <li><a href="#casestudy-rcsb" onclick = $("#menu-close").click(); >Case Study: RCSB PDB</a></li>
-            <li><a href="casestudies.html" onclick = $("#menu-close").click(); >Other Case Studies</a></li>
+            <li><a href="#casestudy-testing" onclick = $("#menu-close").click(); >Case Study: Automated Testing</a></li>
+            <li><a href="#casestudy-rcsb-node" onclick = $("#menu-close").click(); >Case Study: RCSB PDB NodeJS Framework</a></li>
+            <!-- <li><a href="casestudies.html" onclick = $("#menu-close").click(); >Other Case Studies</a></li> -->
             <li><a href="#recommendations" onclick = $("#menu-close").click(); >Recommendations</a></li>
             <li><a href="#videoproduction" onclick = $("#menu-close").click(); >Video Production</a></li>
             <li><a href="#contact" onclick = $("#menu-close").click(); >Contact</a></li>
@@ -62,12 +64,12 @@
                     <p>Seasoned professional responsible for designing, prototyping, developing and maintaining web applications and assets within a fast-paced environment, having a common sense approach towards user experience, and the skills plus experience acquiring targeted traffic, find trending analytics, and managing online marketing campaigns. Recently, added in automated testing to perform regression testing for any new features.</p>
                     <p>Continually extending my domain knowledge, as I'm currently learning about React/Redux, deepening in my love for NodeJS and NPM libraries, and creating scripts to speed up processes.</p>
                     <p>Technical specialties: Front-end development, user experience / interaction (UX/UI), automated testing, web analytics, project planning, ROI-driven internet marketing</p> 
-                    <p>Arts specialties: graphic design, video production, photography</p><br>
+                    <p>Creative arts specialties: graphic design, video production, photography</p><br>
                     <a href="pdf/Resume_JesseWoo.pdf" class="btn btn-default" target="_blank">Download PDF Resume</a>
                     <hr>
                     <h4>Education and Work Experience</h4>
                     <p>After receiving a Bioengineering bachelors and a Mechanical Engineering masters at UC Berkeley, I decided to change my career focused on the tech/computer sector, as it was trending in the mid 2000s. Started out as a Quality Assurance tester, transition to being User Interface designer, then learned about Internet Marketing, but I've always had in mind of being a software developer. </p>
-                    <p>The time that I created my first "hello world" page was thrilling, then jazzed it up with CSS and JS - I had build something that I could visibly see! I took on various web development side projects, and now that interest has become my career. </p>
+                    <p>The time that I created my first "hello world" page was thrilling, then jazzed it up with CSS and JS - it was such a small 'accomplishment', but it was an awakening, where it was incredible that I had build something from nothing, and now I could visibly see! I took on various web development side projects, and now that interest has become my career. </p>
                     <p>I'm currently working full time as a web developer on the RCSB PDB project, located on the UCSD campus.</p>
                     <br>
                 </div>
@@ -96,7 +98,7 @@
                     <strong>Javascript</strong> includes ES6, jQuery, AJAX and usage of REST API<br>
                     <strong>JS Framework</strong> includes React, Redux<br>
                     <strong>Java</strong> includes JSP, Java backend, WRO, Struts, Tiles<br>
-                    <strong>MEAN stack</strong> includes MongoDB, Express, NodeJS, PUG<br>
+                    <strong>ME-N stack</strong> includes MongoDB, Express, NodeJS, PUG templates, NPM libraries<br>
                     <strong>Testing</strong> - includes Ruby, Cucumber, Page-objects, Watir-webdriver, Chrome Headless, Shell Scripts
                   </small>
               </div>
@@ -104,7 +106,8 @@
                   <h4>Design and UX Concepts</h4>
                   <canvas id="designskills" width="550" height="400"></canvas><hr>
                   <small>
-                    <strong>Design</strong> includes Twitter Bootstrap<br>
+                    <strong>UX/UI Design</strong> includes Twitter Bootstrap<br>
+                    <strong>Presentations</strong> includes Powerpoint, Google Slides<br>
                   </small>
               </div>
             </div>
@@ -118,7 +121,7 @@
             <div class="row">
               <div class="col-lg-12 text-center">
                   <h2>Portfolio</h2>
-                  <p>web development, ux designs, graphic design</p>
+                  <p>Web Development, UX/UI Designs, Graphic Design</p>
               </div>
             </div>
             <div class="row">
@@ -132,9 +135,8 @@
                   <p>An NIH/NSF funded resource that archives data on proteins, nucleic acids, and complex biological assemblies. Site accessed by 1+ million unique visitors per year.</p>
                   <ul>
                     <li>Currently working on an autocomplete search box features and the search results page utilizing ReactJS / Redux.</li>
-                    <li>In 2017, developed a frontend NodeJS framework of our site, separating from the monolithic classic Java site. Released in 2018, it's been stable. </li>
-                    <li>Worked with and learned from a senior FE developer -  Significant work done with cutting down on development startup time, caching, lazy load of images, logging to external log server, error handling, quiet failover, usage of ES6 syntax, simpler URL routes, usage of promises and REST services. 
-                    <li>Worked with backend developers on the design and implementation of RESTful APIs.</li>
+                    <li>In 2017, developed a frontend NodeJS/Express implementation of our site, separating from the monolithic classic Java site. Released in early 2018, it's been well received by the public. See <a href="#casestudy-rcsb2">case study</a> on the process.</li>
+                    <li>Added to, worked on and learned from a FE team lead developer - did significant work cutting down on browser loading time thru checking network tab in Chrome web tools, worked on caching, lazy load of images, logging to external log server, error handling, quiet failover, usage of ES6 syntax, simpler URL routes, usage of promises and REST services.
                   </ul>
               </div>
               <div class="col-lg-3 col-xs-12">
@@ -143,6 +145,7 @@
                   </a>
                   <br/><br/>
                   <ul>
+                    <li>Worked with backend developers on the design and implementation of RESTful APIs.</li>
                     <li>In 2016, prior to heavy Javascript development, developed a new Search Results page using Java, JSP, Structs, Tiles, RESTful API, and JSON objects. It was revolutionary because it bypassed the usage of Java beans and used a JSON data payload that was visible to developers.</li>
                     <li>Brainstormed revamped UX / UI, showcased "redesign" mock-ups and prototypes to leadership team, received buy in and then developed high profile Java / JSP pages of www.rcsb.org: 3D view page (2013), homepage (2014), static pages (2014), structure summary page (2015), search results (2016), and statistics (2018). All mobile / tablet responsive. All pages showed considerable lift in the usage and time spent on page thru GA. See <a href="#casestudy-rcsb">case study</a> on the process.</li>
                   </ul>
@@ -177,7 +180,7 @@
                     <img src="images/portfolio-degreesearchold.jpg" alt="RCSB PDB" class="img-responsive img-thumbnail">
                   </a>
                   <a href="http://www.degreeamerica.com/lp/college-finder/" target="_blank">
-                    <h4>Degree America</h4>
+                    <h4>Degree Leap</h4>
                   </a>
                   <p>Matching potential students to online universities and colleges</p>
                   <ul>
@@ -188,7 +191,7 @@
                         <li>Switched background based on interest</li>
                       </ul>
                     </li>
-                    <li>Designed and developed <a href="http://www.degreeamerica.com/mobile-finder/">mobile landing page</a></li>
+                    <li>Designed and developed <a href="http://www.degreeamerica.com/mobile-finder/" target="_blank">mobile landing page</a></li>
                   </ul>
               </div>
               <div class="col-lg-3 col-xs-12">
@@ -196,8 +199,8 @@
                   <h4>Sewing Machines Plus</h4>
                   <p>An E-commerce site dedicated to selling sewing and quill machines</p>
                   <ul>
-                    <li>Created landing pages for <a href="http://www.sewingmachinesplus.com/Black-Friday-2010-Sale.php" target="_black">Black Friday</a>, Cyber Monday, and <a href="http://www.sewingmachinesplus.com/Holiday-Winter-Package.php" target="_blank">Christmas Sales</a></li>
-                    <li>Developed beta version of redesigned site in PHP/HTML/CSS/JS (Shopsite): <a href="http://www.sewingmachinesplus.com/RevampSMP/Version1.3/index3.html
+                    <li>Created landing pages for <a href="http://www.sewingmachinesplus.com/Black-Friday-2010-Sale.php" target="_blank">Black Friday</a>, Cyber Monday, and <a href="http://www.sewingmachinesplus.com/Holiday-Winter-Package.php" target="_blank">Christmas Sales</a></li>
+                    <li>Developed beta version of redesigned site in PHP/HTML/CSS/JS (Shopsite platform): <a href="http://www.sewingmachinesplus.com/RevampSMP/Version1.3/index3.html
 " target="_blank">homepage</a>, <a href="http://www.sewingmachinesplus.com/RevampSMP/Version1.1-SearchResults/index-productinfo.html" target="_blank">search results</a>, <a target="_blank" href="http://www.sewingmachinesplus.com/RevampSMP/Version1.2-ProductPage/productpage.html
 ">product page</a> and <a target="_blank" href="http://www.sewingmachinesplus.com/RevampSMP/Version1.2-ShoppingCart/addtocartpage.html">shopping cart</a></li>
                     <li>Graphic designs: <a href="pdf/CloseOutSale_2010Brochure.pdf" target="_blank">Close Out Sale</a>, <a href="pdf/KathiQuinn_2010Brochure.pdf" target="_blank">Kathy Quinn Event</a>, <a href="pdf/MarthaPullen_2010Brochure.pdf" target="_blank">Martha Pullen Event</a></li>
@@ -206,16 +209,20 @@
               <div class="col-lg-3 col-xs-12">
                   <img src="images/portfolio-campustextbookdeals.jpg" alt="Campus Textbook Deals" class="img-responsive img-thumbnail">
                   <h4>Campus Textbook Deals</h4>
-                  <p>Search buy or rental textbook deals</p>
+                  <p>Search buy or rental textbook deals.</p>
                   <ul>
                     <li>Designed and developed the college textbook comparison site using PHP/HTML/CSS/JS/MySQL, also utilizing Amazon’s API and Chegg's database</li>
                     <li>Purchased traffic thru Google Adwords and Bing</li>
                     <li>View screenshots: <a href="images/portfolio-campustextbookdeals.png" data-toggle="lightbox" data-title="Campus Textbook Deals - Homepage" data-gallery="ctd">homepage</a>, <a href="images/portfolio-campustextbookdeals2.png" data-toggle="lightbox" data-title="Campus Textbook Deals - Compare Price Page" data-gallery="ctd">comparison page</a></li>
+                    <li><i>NOTE: <a href="http://www.campustextbookdeals.com/" target="_blank">It has since been redesigned</a> by another web designer.</i></li>
+
                   </ul>
               </div>
               <div class="col-lg-3 ol-xs-12">
                   <img src="images/portfolio-turnitin.jpg" alt="RCSB PDB" class="img-responsive img-thumbnail">
-                  <h4>Turnitin</h4>
+                  <a href="http://turnitin.com/" target="_blank">
+                    <h4>Turnitin</h4>
+                  </a>  
                   <p>Anti-Plagiarism tool used by many universities and high school</p>
                   <ul>
                     <li>Designed lo and hi-fidelity User Interface specifications for product features: <a href="images/turnitin/Administration_Dashboard_Expiration.jpg" target="_blank">LMS integrations</a> (eg Blackboard, Moodle), <a href="images/turnitin/Bulk Upload Degraded Version-May_18th_2009.png" target="_blank">bulk upload paper submission</a></li>
@@ -233,7 +240,7 @@
           <div class="row">
             <div class="col-lg-12 text-center">
                 <h2>Case Study: RCSB PDB</h2>
-                <p>in-depth look at one project</p>
+                <p>In-depth look at overhauling the UX/UI of RCSB PDB</p>
             </div>
           </div><br>
           <div class="row">
@@ -301,6 +308,33 @@
       </div>
     </section>
 
+
+    <!-- Case Study : Testing Framework -->  
+    <section id="casestudy-testing">
+      <div class="container">
+          <div class="row">
+            <div class="col-lg-12 text-center">
+                <h2>Case Study: Automated Testing</h2>
+                <p>In-depth look at creating an agnostic testing framework for RCSB PDB</p>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-lg-6">
+              <h3>Before Testing</h3>
+              <p>Copy and paste content</p>
+              
+            </div>
+            <div class="col-lg-6">
+              <h3>Reasons</h3>
+              <p>Our developers can tests it's code changes, but the delivered product always undoubtably has defects and bugs. There was a need catch issues before our site was re-released every week with new structures and content, even with a dedicated team doing manual testing (which we didn't have). Going forward, we needed to automate tests to increase the coverage, effectiveness, and efficiency / speed of just overall testing.</p>
+              <p>As the lead on this project, I took charge of this very important tasks, which exceeded expectations. Even to this day, other developers have commented how useful the automated tests have been because it has caught issues they would never catch testing things manually. Even the original team tasked to test our feature commented how now they can be freed up to test other important features instead of going back to test normal things. </p>
+              
+            </div>
+          </div>
+
+      </div>
+    </section>
+
     <!-- Recommendations-->
     <section id="recommendations">
       <div class="container">
@@ -351,8 +385,6 @@
                 </blockquote>
             </div>
           </div>
-
-
       </div>
     </section>
 
@@ -362,9 +394,22 @@
           <div class="row">
             <div class="col-lg-12 text-center">
                 <h2>Video Production</h2>
-                <p>a <a href="http://vimeo.com/user3082735" target="_blank">sample of videos</a> I've produced</p>
+                <p>A <a href="http://vimeo.com/user3082735" target="_blank">Sample of Videos</a> Produced Over the Years</p>
             </div>
           </div>
+          <div class="row">
+            <div class="col-lg-4">
+                <h4>Recap video of a RCSB Work Retreat</h4>
+                <p>Captured a monumental moment of bringing two coasts of RCSB developers together, to collaborate and move into the future.</p>
+                <p>Equipment: Canon Rebel T3i DSLR, Shure VP83F LensHopper Shotgun Microphone, Premiere</p>
+            </div>
+            <div class="col-lg-8">
+              <div class="embed-responsive embed-responsive-16by9">
+                <iframe class="embed-responsive-item" width="560" height="315" src="https://www.youtube.com/embed/XHuxYyPIGLw" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+              </div>
+            </div>
+          </div>
+          <hr>
           <div class="row">
             <div class="col-lg-8">
               <div class="embed-responsive embed-responsive-16by9">
@@ -464,7 +509,7 @@
     <script>
 
       var frontendskillsData = {
-      	labels : ["PHP/HTML/CSS","jQuery","MySQL","Java","ME-N","Testing"],
+      	labels : ["PHP/HTML/CSS","JS/jQuery","MySQL","Java","ME-N","Testing"],
       	datasets : [
       		{
       			fillColor : "rgba(172,194,132,0.4)",
@@ -480,14 +525,14 @@
 
 
       var designData = {
-      	labels : ["UX/UI Concepts","Photoshop","Presentations","Premiere","After Effects"],
+      	labels : ["UX/UI Concepts","Photoshop","Presentations","Premiere/FCP","After Effects"],
       	datasets : [
       		{
       			fillColor : "rgba(151,187,205,0.2)",
       			strokeColor : "rgba(151,187,205,1)",
       			pointColor : "rgba(151,187,205,1)",
       			pointStrokeColor : "#9DB86D",
-      			data : [9,18,4,11,2]
+      			data : [9,18,4,11,1]
       		}
       	]
       }
