@@ -30,8 +30,7 @@
             <li><a href="#portfolio" onclick = $("#menu-close").click(); >Portfolio</a></li>
             <li><a href="#casestudy-rcsb" onclick = $("#menu-close").click(); >Case Study: RCSB PDB</a></li>
             <li><a href="#casestudy-testing" onclick = $("#menu-close").click(); >Case Study: Automated Testing</a></li>
-            <li><a href="#casestudy-rcsb-node" onclick = $("#menu-close").click(); >Case Study: RCSB PDB NodeJS Framework</a></li>
-            <!-- <li><a href="casestudies.html" onclick = $("#menu-close").click(); >Other Case Studies</a></li> -->
+            <li><a href="#casestudy-rcsb-node" onclick = $("#menu-close").click(); >Case Study: NodeJS Framework</a></li>
             <li><a href="#recommendations" onclick = $("#menu-close").click(); >Recommendations</a></li>
             <li><a href="#videoproduction" onclick = $("#menu-close").click(); >Video Production</a></li>
             <li><a href="#contact" onclick = $("#menu-close").click(); >Contact</a></li>
@@ -61,8 +60,8 @@
                 <div class="col-lg-9 col-xs-8">
                     <h2>Jesse Woo</h2>
                     <h4>Front End Developer, User Experience Designer, QA Engineer &amp; Leader</h4>
-                    <p>Seasoned professional responsible for designing, prototyping, developing and maintaining web applications and assets within a fast-paced environment, having a common sense approach towards user experience, and the skills plus experience acquiring targeted traffic, find trending analytics, and managing online marketing campaigns. Recently, added in automated testing to perform regression testing for any new features.</p>
-                    <p>Continually extending my domain knowledge, as I'm currently learning about React/Redux, deepening in my love for NodeJS and NPM libraries, and creating scripts to speed up processes.</p>
+                    <p>Seasoned professional responsible for designing, prototyping, developing and maintaining web applications and assets within a fast-paced environment, having a common sense approach towards user experience, create automated regression test suites, and the skills plus experience acquiring targeted traffic, find trending analytics, and managing online marketing campaigns. </p>
+                    <p>Continually extending my domain knowledge, currently learning about React/Redux, deepening in my usage of NodeJS and various NPM libraries, and creating shell scripts to speed up processes.</p>
                     <p>Technical specialties: Front-end development, user experience / interaction (UX/UI), automated testing, web analytics, project planning, ROI-driven internet marketing</p> 
                     <p>Creative arts specialties: graphic design, video production, photography</p><br>
                     <a href="pdf/Resume_JesseWoo.pdf" class="btn btn-default" target="_blank">Download PDF Resume</a>
@@ -335,6 +334,57 @@
       </div>
     </section>
 
+                <li><a href="#casestudy-rcsb-node" onclick = $("#menu-close").click(); >Case Study: RCSB PDB NodeJS Framework</a></li>
+
+
+    <!-- Case Study : RCSB PDB-->
+    <section id="casestudy-rcsb-node">
+      <div class="container">
+          <div class="row">
+            <div class="col-lg-12 text-center">
+                <h2>Case Study: RCSB PDB NodeJS Framework</h2>
+                <p>In-depth look at Modularizing our Monolithic Web Application</p>
+            </div>
+          </div><br>
+          <div class="row">
+            <div class="col-lg-6">
+              <h3>Reasons and Beginnings</h3>
+              <h4>Our Classic Site was Difficult to Maintain</h4>
+              <p>Built with outdated technology and years of different teams of developers working on the Java code base, it became clear over the years that it would be difficult to maintain and manage. The cost of keeping our classic site and the upkeep outweight the cost of switching over to a new architecture and paradigm. There were bandages on top of bandages, a lot of dead or redundant code, copy and pasted code littered everywhere, the start up time for a local Java build took minutes - that's an eternity for developers, too many non actionable error handling, and a mixture of frontend and backend code mashed into one monolithic code base where the separation of development task was difficult to assign. Overall, developers feared the code base, the seemingly black box code base. The code dated 10 years prior. </p>
+              <p>We were determined to bring order into the chaos, bring clarity into the opaqueness of the code base. 
+              This was our problem that we wanted to solve for our future success.</p>
+              <hr>
+              <h4>Gathering Inspiration and Going to the Drawing Board</h4>
+              <p>Reading up on various <a href='https://medium.com/microhq/why-companies-adopt-microservices-and-how-they-succeed-2ad32f39c65a' target='_blank'>tech articles</a>, many well known companies like <a href='http://blog.leanix.net/en/why-netflix-amazon-and-apple-care-about-microservices' target='_blank'>Netflix and Amazon</a> moved their monolithic site to a microservice based architecture, which really inspired us to think similar lines. The advantage was speed, scale and agility, three things that were important to us for the future. Drilling down, if one of microservice had an outage, it wouldn't take down the entire site but the site would be able to handle such an error. Also, with the usage of services, the main code base wouldn't be bloated and large. Each change in the code base wouldn't be require a rebuild, redeployment that could take about 15 minutes on the Java framework.</p> 
+              <p>In addition, there was <a href='https://venturebeat.com/2012/01/24/why-walmart-is-using-node-js/' target='_blank'>Walmart who started using NodeJS</a> for end to end usage of JS, which was inspiration from the best.</p> 
+              <p>So taking from top notch companies, we wanted to move our code base in the same direction. As a team, RCSB PDB would start fresh and move to a new microservice-based architecture to better scale our services to accommodate growth and user demand, and to increase the speed at which we can deploy new services. And there were so many benefits even from the user. </p>
+              <p><a href='http://www.rcsb.org/news?year=2018&article=5a594b7cac788803cef497b8&feature=true'>This RCSB PDB article</a> explains more in depth on what was done. </p>
+            </div>
+            <div class="col-lg-6">
+              <h3>Technology Used and Learning</h3>
+              <ul>
+                <li><a href='https://www.w3schools.com/nodejs/nodejs_intro.asp' target='_blank'>NodeJS</a> uses Javascript on the server, JS being a language all frontend team members understood. NodeJS elminates waiting for a process to finish, uses <a href='http://javascriptissexy.com/understand-javascript-callback-functions-and-use-them/' target='_blank'>callbacks</a>. NodeJS does non-blocking I/O, which can be <a href='http://code.danyork.com/2011/01/25/node-js-doctors-offices-and-fast-food-restaurants-understanding-event-driven-programming/' target='_blank'>summed up in a fast food analogy</a>.</li>
+                <li>Express was used for <a href='https://expressjs.com/en/guide/routing.html' target='_blank'>URL routing</a>, <a href='https://expressjs.com/en/guide/using-middleware.html' target='_blank'>application level and error handling middleware</a>, and the incorporation of the <a href='https://expressjs.com/en/guide/using-middleware.html' target='_blank'>Pug template engines</a>.</li>
+                <li><a href='https://pugjs.org/api/getting-started.html' target='_blank'>Pug templates</a> had build in <a href='https://pugjs.org/language/iteration.html' target='_blank'>iteration functions</a>, <a href='https://pugjs.org/language/mixins.html' target='_blank'>mixin which create reusable code blocks</a>, and <a href='https://pugjs.org/language/conditionals.html'>conditional syntax</a> to handle various situations. </li>
+                <li><a href='https://developers.google.com/web/fundamentals/primers/promises' target='_blank'>Promises</a>, which is basically an object representing the eventual completion of a asynchronous operation and it's resulting value. Promises were used to retrieve data from RESTful calls, based on success or failure, the app would route to a rendered page or an error catching mechanism.</li>
+                
+
+              </ul>  
+
+              <hr>
+              <h4>Other JS libraries used</h4>
+              <ul>
+                <li><a href='http://www.chartjs.org/docs/latest/' target='_blank'>ChartJS</a></li>
+                <li><a href='https://datatables.net/' target='_blank'>DataTable.Net</a></li>
+                <li><a href='https://getbootstrap.com/docs/3.3/' target='_blank'>Bootstrap 3</a></li>
+
+              <h4></h4>
+              
+            </div>
+          </div>
+      </div>
+    </section>
+
     <!-- Recommendations-->
     <section id="recommendations">
       <div class="container">
@@ -427,7 +477,7 @@
           <hr>
           <div class="row">
             <div class="col-lg-4">
-                <h4>Recap video of a Spring Break trip</h4>
+                <h4>Recap video of a Spring Break Trip</h4>
                 <p>Summarized the hikes at Bryce Canyon / Zion National Park in Utah. Drove 1244 miles roundtrip, starting from San Diego. As the lead of the trip, I took care of the finances and logistical planning. <a href="https://www.flickr.com/photos/gracepointsandiego/sets/72157643218634585" target="_blank">View gallery of photos</a> taken on my Canon Rebel T3i. </p>
                 <p>Equipment: Canon Rebel T3i DSLR, iMovie</p>
                 <a href="https://www.flickr.com/photos/gracepointsandiego/sets/72157643218634585" target="_blank"><img src="images/ZionNationalPark.png" alt="Zion National Park" class="img-responsive img-thumbnail"></a>
