@@ -11,7 +11,7 @@
 			"file": "index.html",
 			"settings":
 			{
-				"buffer_size": 50713,
+				"buffer_size": 51688,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
@@ -50,7 +50,6 @@
 	"expanded_folders":
 	[
 		"/Users/jessewoo/GIT/jessewoo",
-		"/Users/jessewoo/GIT/jessewoo/pdf",
 		"/Users/jessewoo/GIT/jessewoo/sample"
 	],
 	"file_history":
@@ -102,15 +101,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 50713,
+						"buffer_size": 51688,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1828,
-								1828
+								41375,
+								41375
 							]
 						],
 						"settings":
@@ -120,7 +119,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 7269.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
